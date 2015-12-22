@@ -2,7 +2,7 @@
 title       : Use Trade Analyzer To Identify Profitable Trading Strategies
 subtitle    : Simulate your trading strategy and find which ones work best
 author      : Michael Szczepaniak
-job         : Data Scientist & creator of tranalyzer.us
+job         : Creator of tranalyzer.us
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # {tomorrow}

@@ -3,7 +3,7 @@ title       : Use Trade Analyzer To Identify Profitable Trading Strategies
 subtitle    : Simulate your trading strategy and find which ones work best
 author      : Michael Szczepaniak
 job         : Creator of tranalyzer.us
-framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+framework   : io2012     # {io2012, landslidehtml5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # {tomorrow}
 widgets     : []            # {mathjax, quiz, bootstrap}
@@ -11,35 +11,46 @@ mode        : standalone    # {standalone, selfcontained, draft}
 knit        : slidify::knit2slides
 ---
 
-```{r eval=FALSE, echo=FALSE}
-setwd("../../TranalyzerPresentation")
-```
+<style type="text/css">
+body {background:grey transparent;
+}
+</style>
 
-## What is Trade Analyzer (TA) and who should use it?
+### What is Trade Analyzer (TA)?
 
-1. Powerful, low cost, web application to simulate your multi-day trading strategies
-2. TA will evaluate your trading strategy based on your inputs.
-3. Future features include algorithms to fine-tune your strategy to maximize profitablity
-  - Current functionality allows users to test just their specified strategies
-4. Intended for traders who hold positions longer than a single day (swing traders)
+1. TA is a powerful, low cost, web application to test your multi-day trading ideas.
+2. While there are many sites that will allow you to create charts and even do some technical anlaysis, none that are free (that I'm aware of) allow you to actually test your trading strategy based on your inputs.
+3. Intended for traders who hold positions longer than a single day (swing traders)
   - Not intended for traders how enter and exit multiple times per day (day traders)
-5. Can use free (e.g. finance.yahoo) or subscription-based data services
-
---- .class #id 
-
-## Slide 3
-
-Test slide 3
-
---- 
-
-## Slide 4
-
-Content for slide 4
+4. Can use free or subscription-based data services
+  - Module to download (currently free) stock data from <b>finanace.yahoo</b> is available.
+  - Applications like [TradeStation](http://www.tradestation.com/products/stocks-and-etfs/pricing) or [ThinkOrSwim](https://www.thinkorswim.com/t/innovation.html) require opening accounts with their brokerages while others like [TC2000] (https://www.worden.com/offerterms) charge a monthly fee.
+  - With TA, you can do your analysis for free.
+5. Future features will include machine learning algorithms to fine-tune your strategy to maximize profitablity.
+  - Current functionality allows users to test just their specified strategies
 
 --- 
 
-## Slide 5
+### How might I use TA? (push right or down arrow to continue...)
+
+> * You read somewhere on the internet that many successful stock traders follow trends.
+> * You decide to research trend following strategies and discover the fast/slow simple moving average (SMA) cross-over strategy.
+> * You are intrigued, it's Christmas Eve 2015, and all your holiday preparations are finished, so you vist one of the many sites that provide free stock charts [(e.g bigcharts.com)](http://bigcharts.marketwatch.com) and look at a chart for General Electric (ticker GE) over the last year.
+> * To your delight, you discover that you can plot 2 moving averages!
+> * So you create a chart that overlays a 9 and 18 day SMA and it looks like [this](https://www.dropbox.com/s/0lyl8apq7p78s0r/geYtd2015.12.24.jpg?raw=1)
+> * You can see from this chart that you would have made some money if you bought in late January 2015 and sold somewhere near mid-April.
+  - Remember how the strategy worked: When the gold line (fast SMA) rises above the blue line (slow SMA), you buy.  When the gold line drops below the blue line, you sell.
+> * You think... "This is pretty cool, but some of the other trades look like they lost money.  Trying to figure out if this strategy would have made money over the whole year would be a lot tedious work!  I wonder if there is an application that could help with this?"
+
+--- 
+
+### Trade Analyzer to the rescue!
+
+discuss how TA solves the problem...
+
+--- 
+
+### Slide 5
 
 Content for slide 5
 

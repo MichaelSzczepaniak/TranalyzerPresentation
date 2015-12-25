@@ -1,0 +1,6 @@
+# files used for local dev
+*.RData
+*.RHistory
+sandbox.R
+# directories
+.cache/

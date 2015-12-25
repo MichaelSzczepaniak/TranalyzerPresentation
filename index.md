@@ -35,9 +35,9 @@ body {background:grey transparent;
 
 > * You read somewhere on the internet that many successful stock traders follow trends.
 > * You decide to research trend following strategies and discover the [fast/slow simple moving average (SMA) cross-over strategy](http://www.onlinetradingconcepts.com/TechnicalAnalysis/MASimple2.html).
-> * You are intrigued.  It's Christmas Eve 2015 and all your holiday preparations are finished.  So you visit one of the many sites that provide free stock charts [(e.g. bigcharts.com)](http://bigcharts.marketwatch.com) and look at a one year chart for General Electric (ticker GE).
+> * You are intrigued.  It's Christmas Eve 2015 and all your holiday preparations are finished.  So you visit one of the many sites that provide free stock charts (e.g. [bigcharts.com](http://bigcharts.marketwatch.com)) and look at a one year chart for General Electric (ticker GE).
 > * To your delight, you discover that you can plot two SMAs together on the same chart!
-> * So you create a chart that overlays a 9 and 18 day SMA and it looks like [this.](https://www.dropbox.com/s/0lyl8apq7p78s0r/geYtd2015.12.24.jpg?raw=1)
+> * So you create a chart that overlays a 9 and 18 day SMA and it looks like [this.](./assets/img/geYtd2015.12.24.jpg)
 > * You can see from this chart that you would have made some money if you bought in late January 2015 and sold somewhere near mid-April.
   - Remember how the strategy works: When the gold line (fast SMA) rises above the blue line (slow SMA), you buy.  When the gold line drops below the blue line, you sell.
 > * You think... "This is pretty cool, but some of the other trades look like they lost money.  Trying to figure out if this strategy would have made money over the whole year would be a lot of tedious work!  I wonder if there is an app that could help with this?"

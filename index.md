@@ -25,7 +25,7 @@ body {background:grey transparent;
 4. Can use free or subscription-based data services
   - Module to download (currently free) stock data from <b>finanace.yahoo</b> is available.
   - Applications like [TradeStation](http://www.tradestation.com/products/stocks-and-etfs/pricing) or [ThinkOrSwim](https://www.thinkorswim.com/t/innovation.html) require opening accounts with their brokerages while others like [TC2000] (https://www.worden.com/offerterms) charge a monthly fee.
-  - With TA, you can do your analysis for free.
+  - With TA, you can do your analysis for free without being tied to a broker.
 5. Future features will include machine learning algorithms to fine-tune your strategy to maximize profitablity.
   - Current functionality allows users to test just their specified strategies
 
@@ -39,18 +39,40 @@ body {background:grey transparent;
 > * To your delight, you discover that you can plot 2 moving averages!
 > * So you create a chart that overlays a 9 and 18 day SMA and it looks like [this](https://www.dropbox.com/s/0lyl8apq7p78s0r/geYtd2015.12.24.jpg?raw=1)
 > * You can see from this chart that you would have made some money if you bought in late January 2015 and sold somewhere near mid-April.
-  - Remember how the strategy worked: When the gold line (fast SMA) rises above the blue line (slow SMA), you buy.  When the gold line drops below the blue line, you sell.
-> * You think... "This is pretty cool, but some of the other trades look like they lost money.  Trying to figure out if this strategy would have made money over the whole year would be a lot tedious work!  I wonder if there is an application that could help with this?"
+  - Remember how the strategy works: When the gold line (fast SMA) rises above the blue line (slow SMA), you buy.  When the gold line drops below the blue line, you sell.
+> * You think... "This is pretty cool, but some of the other trades look like they lost money.  Trying to figure out if this strategy would have made money over the whole year would be a lot of tedious work!  I wonder if there is an app that could help with this?"
 
 --- 
 
-### Trade Analyzer to the rescue!
+### There's an app for that... Trade Analyzer to the rescue!
 
-discuss how TA solves the problem...
+If you enter these setting into TA and click the <b>Run Simulation</b> button
+<img src="./assets/img/ge_demo-settings.jpg" alt="GE demo settings">
+you'll see the results of your test starting with a $10,000 USD account using an all-in-all-out position management strategy.  These would be the trades TA would find:
+
+
+```
+##        BuyOn BuyPrice Shares     SellOn SellPrice ProfitLoss
+## 1 2015-01-30    23.89    418 2015-03-16     25.45     632.08
+## 2 2015-04-10    28.51    373 2015-05-04     27.27    -482.53
+## 3 2015-05-13    27.21    374 2015-06-30     26.57    -259.36
+## 4 2015-07-22    26.63    373 2015-07-30     26.12    -210.23
+## 5 2015-09-15    25.30    385 2015-12-08     30.19    1862.65
+```
+TA even tells you that you would have made about $ 1543 if you would have used this strategy over the course of 2015.  Think of how much time TA just saved you!
+
 
 --- 
 
-### Slide 5
+### Trade Analyzer 
 
-Content for slide 5
+* In the **Graphics** tab, TA will show you visually where the buy and sell signals for your strategy were.
+* Also in the **Graphics** tab, TA will show you a histogram summarizing the results of the simulated trades for the given settings you chose in the left configuration pane.
+* TA opens to the **Users Guide** tab which explains the basic operation and the settings in the left configuration pane.
+* Finally, the last tab on the right named **Signal** describes in more detail how the buy and sell signals are generated for your selection.  
 
+So what are you waiting for?  Take the **Trade Analyzer** out for a spin today by going [here.](https://michael-szczepaniak.shinyapps.io/tranalyzer)
+
+Have fun, make money and remember: Test it before you trade it!  
+
+###### WARNING: THIS PRESENTATION IS ONLY FOR EDUCATIONAL PURPOSES.  PLEASE DO YOUR HOMEWORK BEFORE ENGAGING IN REAL TRADING.  THE TA APPLICATION HAS NO WARRANTY AND NO CLAIMS OF IT ACCURACY ARE BEING MADE OR IMPLIED IN THIS PRESENTATION.

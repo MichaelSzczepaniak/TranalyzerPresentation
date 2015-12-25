@@ -21,7 +21,7 @@ body {background:grey transparent;
 1. TA is a powerful, low cost, web application to test your multi-day trading ideas.
 2. While there are many sites that will allow you to create charts and even do some technical anlaysis, none that are free (that I'm aware of) allow you to actually test your trading strategy based on your inputs.
 3. Intended for traders who hold positions longer than a single day (swing traders)
-  - Not intended for traders how enter and exit multiple times per day (day traders)
+  - Not intended for traders who enter and exit multiple times per day (day traders)
 4. Can use free or subscription-based data services
   - Module to download (currently free) stock data from <b>finanace.yahoo</b> is available.
   - Applications like [TradeStation](http://www.tradestation.com/products/stocks-and-etfs/pricing) or [ThinkOrSwim](https://www.thinkorswim.com/t/innovation.html) require opening accounts with their brokerages while others like [TC2000] (https://www.worden.com/offerterms) charge a monthly fee.
@@ -34,10 +34,10 @@ body {background:grey transparent;
 ### How might I use TA? (push right or down arrow to continue...)
 
 > * You read somewhere on the internet that many successful stock traders follow trends.
-> * You decide to research trend following strategies and discover the fast/slow simple moving average (SMA) cross-over strategy.
-> * You are intrigued, it's Christmas Eve 2015, and all your holiday preparations are finished, so you vist one of the many sites that provide free stock charts [(e.g bigcharts.com)](http://bigcharts.marketwatch.com) and look at a chart for General Electric (ticker GE) over the last year.
-> * To your delight, you discover that you can plot 2 moving averages!
-> * So you create a chart that overlays a 9 and 18 day SMA and it looks like [this](https://www.dropbox.com/s/0lyl8apq7p78s0r/geYtd2015.12.24.jpg?raw=1)
+> * You decide to research trend following strategies and discover the [fast/slow simple moving average (SMA) cross-over strategy](http://www.onlinetradingconcepts.com/TechnicalAnalysis/MASimple2.html).
+> * You are intrigued.  It's Christmas Eve 2015 and all your holiday preparations are finished.  So you visit one of the many sites that provide free stock charts [(e.g. bigcharts.com)](http://bigcharts.marketwatch.com) and look at a one year chart for General Electric (ticker GE).
+> * To your delight, you discover that you can plot two SMAs together on the same chart!
+> * So you create a chart that overlays a 9 and 18 day SMA and it looks like [this.](https://www.dropbox.com/s/0lyl8apq7p78s0r/geYtd2015.12.24.jpg?raw=1)
 > * You can see from this chart that you would have made some money if you bought in late January 2015 and sold somewhere near mid-April.
   - Remember how the strategy works: When the gold line (fast SMA) rises above the blue line (slow SMA), you buy.  When the gold line drops below the blue line, you sell.
 > * You think... "This is pretty cool, but some of the other trades look like they lost money.  Trying to figure out if this strategy would have made money over the whole year would be a lot of tedious work!  I wonder if there is an app that could help with this?"
@@ -46,7 +46,7 @@ body {background:grey transparent;
 
 ### There's an app for that... Trade Analyzer to the rescue!
 
-If you enter these setting into TA and click the <b>Run Simulation</b> button
+If you enter these settings into TA and click the <b>Run Simulation</b> button
 <img src="./assets/img/ge_demo-settings.jpg" alt="GE demo settings">
 you'll see the results of your test starting with a $10,000 USD account using an all-in-all-out position management strategy.  These would be the trades TA would find:
 
@@ -75,4 +75,4 @@ So what are you waiting for?  Take the **Trade Analyzer** out for a spin today b
 
 Have fun, make money and remember: Test it before you trade it!  
 
-###### WARNING: THIS PRESENTATION IS ONLY FOR EDUCATIONAL PURPOSES.  PLEASE DO YOUR HOMEWORK BEFORE ENGAGING IN REAL TRADING.  THE TA APPLICATION HAS NO WARRANTY AND NO CLAIMS OF IT ACCURACY ARE BEING MADE OR IMPLIED IN THIS PRESENTATION.
+###### DISCLAIMER:  USE AT YOUR OWN RISK.  THIS PRESENTATION IS ONLY FOR EDUCATIONAL PURPOSES.  PLEASE DO YOUR HOMEWORK BEFORE ENGAGING IN REAL TRADING.  THE TA APPLICATION HAS NO WARRANTY AND NO CLAIMS REGARDING ACCURACY ARE BEING MADE OR IMPLIED IN THIS PRESENTATION.

@@ -1,10 +1,9 @@
 ---
 title       : Use Trade Analyzer To Identify Profitable Trading Strategies
 subtitle    : Simulate your trading strategy and find which ones work best
-subsub      : sub sub
 author      : Michael Szczepaniak
 job         : Creator of tranalyzer.us                                  Use right and left arrow keys to navigate presentation.
-framework   : io2012     # {io2012, landslide, html5slides, shower, dzslides, ...}
+framework   : io2012        # {io2012, landslide, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # {tomorrow}
 widgets     : []            # {mathjax, quiz, bootstrap}
@@ -14,8 +13,8 @@ knit        : slidify::knit2slides
 
 ### What is Trade Analyzer (TA)?
 
-1. TA is a powerful, low cost, web application to test your multi-day trading ideas.
-2. While there are many sites that will allow you to create charts and even do some technical anlaysis, none that are free (that I'm aware of) allow you to actually test your trading strategy based on your inputs.
+1. TA is a powerful, free, web application to test your multi-day trading ideas.
+2. While there are many sites that will allow you to create charts and even do some technical analysis, none that are free (that I'm aware of) allow you to actually test your trading strategy based on your inputs.
 3. Intended for traders who hold positions longer than a single day (swing traders)
   - Not intended for traders who enter and exit multiple times per day (day traders)
 4. Can use free or subscription-based data services

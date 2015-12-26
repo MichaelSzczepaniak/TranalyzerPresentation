@@ -11,7 +11,7 @@ mode        : standalone    # {standalone, selfcontained, draft}
 knit        : slidify::knit2slides
 ---
 
-### What is Trade Analyzer (TA)?
+### <span style="color:#AA0000">What is Trade Analyzer (TA)?</span>
 
 1. TA is a powerful, free, web application to test your multi-day trading ideas.
 2. While there are many sites that will allow you to create charts and even do some technical analysis, none that are free (that I'm aware of) allow you to actually test your trading strategy based on your inputs.
@@ -26,7 +26,7 @@ knit        : slidify::knit2slides
 
 --- 
 
-### How might I use TA? (push right or down arrow to continue...)
+### <span style="color:#AA0000">How might I use TA?</span> (push right or down arrow to continue...)
 
 > * You read somewhere on the internet that many successful stock traders follow trends.
 > * You decide to research trend following strategies and discover the [fast/slow simple moving average (SMA) cross-over strategy](http://www.onlinetradingconcepts.com/TechnicalAnalysis/MASimple2.html).
@@ -39,11 +39,11 @@ knit        : slidify::knit2slides
 
 --- 
 
-### There's an app for that... Trade Analyzer to the rescue!
+### <span style="color:#AA0000">There's an app for that... Trade Analyzer to the rescue!</span>
 
-If you enter these settings into TA and click the <b>Run Simulation</b> button
-<img src="./assets/img/ge_demo-settings.jpg" alt="GE demo settings">
-you'll see the results of your test starting with a $10,000 USD account using an all-in-all-out position management strategy.  These would be the trades TA would find:
+If you enter these settings into TA and click the <span style="color:black; border-style: solid; border-width: 1px; padding: 2px 2px; border-radius: 5px">Run Simulation</span> button
+<img src="./assets/img/ge_demo-settings.jpg" alt="GE demo settings" style="padding-top: 10px">
+you'll see the results of your test starting with a $10,000 USD account using an all-in-all-out position management strategy.  These would be the trades TA would list in the <span style="color:black; border-style: solid; border-width: 2px; padding: 2px 2px">Analyze</span> tab:
 
 ```{r echo=FALSE}
 geSim <- read.csv("./data/ge_2014.12.14to2015.12.14.csv")
@@ -54,16 +54,16 @@ TA even tells you that you would have made about `r paste0("$ ", round(sum(geSim
 
 --- 
 
-### Trade Analyzer Additional Features
+### <span style="color:#AA0000">Trade Analyzer Additional Features</span>
 
-* In the **Graphics** tab, TA will show you visually where the buy and sell signals for your strategy were.
-* Also in the **Graphics** tab, TA will show you a histogram summarizing the results of the simulated trades for the given settings you chose in the left configuration pane.
-* TA opens to the **Users Guide** tab which explains the basic operation and the settings in the left configuration pane.
-* Finally, the last tab on the right named **Signal** describes in more detail how the buy and sell signals are generated for your selection.  
+* In the <span style="color:black; border-style: solid; border-width: 2px; padding: 5px 5px">Graphics</span> tab, TA will show you visually where the buy and sell signals for your strategy were.
+* Also in the <span style="color:black; border-style: solid; border-width: 2px; padding: 5px 5px">Graphics</span> tab, TA will show you a histogram summarizing the results of the simulated trades for the given settings you chose in the left configuration pane.
+* TA opens to the <span style="color:black; border-style: solid; border-width: 2px; padding: 5px 5px">Users Guide</span> tab which explains the basic operation and the settings in the left configuration pane.
+* Finally, the last tab on the right named <span style="color:black; border-style: solid; border-width: 2px; padding: 5px 5px">Signal</span> describes in more detail how the buy and sell signals are generated for your selection.  
 
 So what are you waiting for?  Take the **Trade Analyzer** out for a spin today by going [here.](https://michael-szczepaniak.shinyapps.io/tranalyzer)
 
 Have fun, make money and remember: Test it before you trade it!  
 
-DISCLAIMER:  USE AT YOUR OWN RISK.  THIS PRESENTATION IS ONLY FOR EDUCATIONAL PURPOSES.  PLEASE DO YOUR HOMEWORK BEFORE ENGAGING IN REAL TRADING.  THE TA APPLICATION HAS NO WARRANTY AND NO CLAIMS REGARDING ACCURACY ARE BEING MADE OR IMPLIED IN THIS PRESENTATION.
+<p style="font-size:small; line-height:100%;">DISCLAIMER:  USE AT YOUR OWN RISK.  THIS PRESENTATION IS ONLY FOR EDUCATIONAL PURPOSES.  PLEASE DO YOUR HOMEWORK BEFORE ENGAGING IN REAL TRADING.  THE TA APPLICATION HAS NO WARRANTY AND NO CLAIMS REGARDING ACCURACY ARE BEING MADE OR IMPLIED IN THIS PRESENTATION.</p>
 

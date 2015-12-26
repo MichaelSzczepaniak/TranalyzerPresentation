@@ -1,20 +1,16 @@
 ---
 title       : Use Trade Analyzer To Identify Profitable Trading Strategies
 subtitle    : Simulate your trading strategy and find which ones work best
+subsub      : sub sub
 author      : Michael Szczepaniak
-job         : Creator of tranalyzer.us
-framework   : io2012     # {io2012, landslidehtml5slides, shower, dzslides, ...}
+job         : Creator of tranalyzer.us                                  Use right and left arrow keys to navigate presentation.
+framework   : io2012     # {io2012, landslide, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # {tomorrow}
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : standalone    # {standalone, selfcontained, draft}
 knit        : slidify::knit2slides
 ---
-
-<style type="text/css">
-body {background:grey transparent;
-}
-</style>
 
 ### What is Trade Analyzer (TA)?
 
@@ -64,7 +60,7 @@ TA even tells you that you would have made about $ 1543 if you would have used t
 
 --- 
 
-### Trade Analyzer 
+### Trade Analyzer Additional Features
 
 * In the **Graphics** tab, TA will show you visually where the buy and sell signals for your strategy were.
 * Also in the **Graphics** tab, TA will show you a histogram summarizing the results of the simulated trades for the given settings you chose in the left configuration pane.
